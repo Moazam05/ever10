@@ -1240,9 +1240,10 @@ img.third-step {
     justify-content: center;
   }
 
-  /* #splittable-footer-realign-mobile {
-    padding: 60px 0px 200px 0px !important;
-  } */
+  #splittable-footer-realign-mobile {
+    padding: 60px 0px 100px 0px !important;
+    /* display: none !important; */
+  }
 
   .howjsay-costumer-taking-content.rea > header > h3 {
     font-size: 30px;
