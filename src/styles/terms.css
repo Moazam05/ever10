@@ -1,0 +1,37 @@
+
+
+.terms {
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 16px;
+}
+
+.terms h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    padding: 10pt 0 0;
+}
+
+.terms h1 {
+    color: #666;
+    font-size: 1.625rem;
+    font-weight: 300;
+}
+
+.terms h3 {
+    font-size: 1.375rem;
+    color: #333;
+    font-weight: 300;
+}
+
+.terms h4 {
+    font-size: 1.275rem;
+    color: #333;
+    font-weight: 300;
+}
+
+.terms p {
+    margin: 0 0 1.5em;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    font-weight: 400;
+}

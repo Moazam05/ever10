@@ -1,0 +1,101 @@
+/* Body */
+
+#ever-10-body-content{
+  padding: 90px 0 20px 0;
+  background: #ffffff;
+}
+
+.ever-10-body-content-head{
+  font-family: "Myriad Pro Bold";
+  font-size: 38px;
+  color: #021f41;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.ever-10-howjsay-inner-wrapper{
+  background: url("../../../static/img/home/our-apps-background.png");
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.ever-10-howjsay-inner-wrapper > h3{
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #9d1521;
+}
+
+.ever-10-howjsay-inner-wrapper > h2{
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.ever-10-howjsay-inner-wrapper > p{
+  font-size: 17px;
+  line-height: 30px;
+  color: #4e5d6b;
+}
+
+.ever-10-howjsay-btn{
+  background: #9d1521;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.ever-10-howjsay-btn:hover{
+  color: #9d1521;
+  background: #ffffff;
+  border: 1px solid #9d1521;
+}
+
+
+.ever-10-splitbills-inner-wrapper{
+  background: url("../../../static/img/home/our-apps-background.png");
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.ever-10-splitbills-inner-wrapper > h3{
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #021f41;
+}
+
+.ever-10-splitbills-inner-wrapper > h2{
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.ever-10-splitbills-inner-wrapper > p{
+  font-size: 17px;
+  line-height: 30px;
+  color: #4e5d6b;
+}
+
+.ever-10-splitbills-btn{
+  background: #021f41;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.ever-10-splitbills-btn:hover{
+  color: #021f41;
+  background: #ffffff;
+  border: 1px solid #021f41;
+}
+
+.navbar > a  {
+  width: 228px;
+  height: 114px;
+}

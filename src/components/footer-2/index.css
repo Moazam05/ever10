@@ -1,0 +1,153 @@
+/* Footer */
+#howjsay-footer{
+  background: url("../../../static/img/howjsay/footer-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 50px 0;
+}
+
+.howjsay-footer-widget > p{
+  margin-bottom: 7px;
+}
+
+.howjsay-footer-widget > p > a {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.howjsay-footer-widget > p > a:hover{
+  text-decoration: none;
+  color: #9d1521;
+}
+
+.howjsay-social-links{
+  list-style: none;
+  display: inline-flex;
+  padding-left: 0;
+  margin-top: 1em;
+}
+
+.howjsay-social-links > li > a{
+  color: #9d1521;
+  font-size: 18px;
+}
+
+.howjsay-social-links > li:nth-child(2){
+  margin-left: 1.5em;
+}
+
+.howjsay-social-links > li:nth-child(3){
+  margin-left: 1.5em;
+}
+
+.howjsay-social-links > li > a:hover{
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.howjsay-footer-widget > h3{
+ color: #9d1521;
+ font-size: 20px;
+ line-height: 26px; 
+ margin-bottom: 0.7em;
+ text-transform: uppercase;
+}
+
+.howjsay-footer-widget > ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.howjsay-footer-widget > ul > li > a{
+  font-size: 16px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.howjsay-footer-widget > ul > li > a:hover{
+  text-decoration: none;
+  color: #9d1521;
+}
+
+.howjsay-copyright-wrap{
+  padding: 30px 0 0 0;
+  border-top: 1px dashed #ffffff;
+}
+
+.howjsay-footer-copyright > p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.howjsay-footer-copyright > p > a{
+  color: #9d1521 !important;
+}
+
+.howjsay-footer-copyright > p > a:hover{
+  text-decoration: none;
+}
+
+.howjsay-footer-terms-wrap > ul{
+  list-style: none;
+  padding-left: 0;
+  float: right;
+}
+
+.howjsay-footer-terms-wrap > ul > li {
+  float: left;
+  padding-right: 20px;
+}
+
+.howjsay-footer-terms-wrap > ul > li:last-child {
+  float: left;
+  padding-right: 0;
+}
+
+.howjsay-footer-terms-wrap > ul > li > a{
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.howjsay-footer-terms-wrap > ul > li > a:hover {
+  text-decoration: none;
+}
+
+
+@media (max-width:780px){
+  /* Footer */
+   #howjsay-footer{
+    background: url("../../../static/img/howjsay/Footer-mob.png");
+    background-size: cover;
+    background-position:center center;
+  }
+  
+  .howjsay-footer-widget{
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .col-md-6.howjsay-footer-copyright {
+    text-align: center;
+  }
+
+  .howjsay-footer-terms-wrap > ul > li > a {
+    font-size: 14px;
+  }
+
+  .howjsay-footer-widget > .navbar-brand{
+    margin-right: 0;
+    margin-left: 1.5em;
+    margin-bottom: 1em !important;
+  }
+
+  .howjsay-howjsay-wrapper,
+  .howjsay-splitbills-wrapper{
+    padding: 0 !important;
+    margin-top: 1em;
+  }
+
+ }

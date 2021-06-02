@@ -1,0 +1,125 @@
+#ever-10-header-desktop{
+  display: block;
+}
+
+#ever-10-header-mob{
+  display: none;
+}
+
+#ever-10-header-desktop{
+  background-color: #021f41;
+  background-image: url("../../../static/img/home/header-dots.png");
+}
+
+.nav-link{
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff !important;
+  text-transform: uppercase;
+}
+
+#ever-10-header-mob{
+  background-color: #021f41;
+  background-image: url("../../../static/img/home/header-dots.png");
+  padding: 20px 0;
+}
+
+.ever-10-header-mob-toggle > a > i {
+  color: #021f41;
+  background: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Off-Canvas Menu*/
+#ever-10-sidenav {
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   width: 280px;
+  left: -260px;
+   height: 100%;
+  -webkit-transform: translate(260px, 0px);
+  -moz-transform: translate(260px, 0px);
+  -o-transform: translate(260px, 0px);
+  -ms-transform: translate(260px, 0px);
+  transform: translate(260px, 0px);
+  -webkit-transition: 0.30s ease;
+  -moz-transition: 0.30s ease;
+  -o-transition: 0.30s ease;
+  transition: 0.30s ease;
+}
+
+
+.ever-10-sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(2, 31, 65, 0.925);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.ever-10-sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.ever-10-sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.ever-10-sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer;
+  color: #ffffff !important;
+}
+
+.modal-open{
+  overflow:auto;
+  padding-right:0 !important;
+}
+
+/* Contact Modal Button */
+.ever-10-contact-modal{
+  color: #ffffff !important;
+  cursor: pointer;
+}
+
+
+@media (max-width:780px){
+  #ever-10-header-desktop{
+    display: none;
+  }
+
+  #ever-10-header-mob{
+    display: block;
+  }
+
+  .ever-10-header-mob-logo > a{
+    margin-left: 1.5em;
+  }
+
+  .ever-10-header-mob-cta {
+    padding-left: 13px;
+}
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+}

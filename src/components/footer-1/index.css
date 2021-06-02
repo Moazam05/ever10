@@ -1,0 +1,141 @@
+/* Footer */
+#ever-10-footer{
+  background: #021f41;
+  padding: 50px 0;
+}
+
+.ever-10-footer-widget > p{
+  margin-bottom: 7px;
+}
+
+.ever-10-footer-widget > p > a {
+  color: #ffffff !important;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.ever-10-footer-widget > p > a:hover{
+  text-decoration: none;
+  color: #00d563;
+}
+
+.ever-10-social-links{
+  list-style: none;
+  display: inline-flex;
+  padding-left: 0;
+  margin-top: 1em;
+}
+
+.ever-10-social-links > li > a{
+  color: #00d563;
+  font-size: 18px;
+}
+
+.ever-10-social-links > li:nth-child(2){
+  margin-left: 1.5em;
+}
+
+.ever-10-social-links > li:nth-child(3){
+  margin-left: 1.5em;
+}
+
+.ever-10-social-links > li > a:hover{
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.ever-10-footer-widget > h3{
+ color: #00d563;
+ font-size: 20px;
+ line-height: 26px; 
+ margin-bottom: 0.7em;
+ text-transform: uppercase;
+}
+
+.ever-10-footer-widget > ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.ever-10-footer-widget > ul > li > a{
+  font-size: 16px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.ever-10-footer-widget > ul > li > a:hover{
+  text-decoration: none;
+  color: #00d563;
+}
+
+.ever-10-copyright-wrap{
+  margin: 5px 0 0 0;
+  padding: 30px 0 0 0;
+  border-top: 1px dashed #ffffff;
+}
+
+.ever-10-footer-copyright > p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.ever-10-footer-copyright > p > a{
+  color: #00d563 !important;
+}
+
+.ever-10-footer-copyright > p > a:hover{
+  text-decoration: none;
+}
+
+.ever-10-footer-terms-wrap > ul{
+  list-style: none;
+  padding-left: 0;
+  float: right;
+}
+
+.ever-10-footer-terms-wrap > ul > li {
+  float: left;
+  padding-right: 20pt;
+}
+
+.ever-10-footer-terms-wrap > ul > li:last-child {
+  padding-right: 0;
+}
+
+.ever-10-footer-terms-wrap > ul > li > a{
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.ever-10-footer-terms-wrap > ul > li > a:hover {
+  text-decoration: none;
+}
+
+@media (max-width:780px){
+  .ever-10-footer-widget{
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .col-md-6.ever-10-footer-copyright {
+    text-align: center;
+  }
+
+  .ever-10-footer-terms-wrap > ul > li > a {
+    font-size: 14px;
+  }
+
+  .ever-10-footer-widget > .navbar-brand{
+    margin-right: 0;
+    margin-left: 1.5em;
+    margin-bottom: 1em !important;
+  }
+
+  .ever-10-howjsay-wrapper,
+  .ever-10-splitbills-wrapper{
+    padding: 0 !important;
+    margin-top: 1em;
+  }
+}

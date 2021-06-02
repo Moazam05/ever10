@@ -1,0 +1,272 @@
+/* Hero-section */
+#howjsay-hero-section{
+  background: url("../../../static/img/howjsay/hero-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15% 0 7% 0;
+}
+
+.howjsay-hero-text > h1{
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.howjsay-hero-text > p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.howjsay-hero-text .app-links {
+  display: inline-flex;
+  font-size: 28px;
+}
+
+.howjsay-hero-text .app-link > a{
+  color: #000000;
+  background: #ffffff;
+}
+
+.howjsay-hero-text .app-link a > div > i{
+  font-size: 28px;
+}
+
+/* Costumer taking section */
+
+#howjsay-costumer-taking-section{
+  background: #ffffff;
+  padding: 100px 0;
+}
+
+
+#howjsay-costumer-taking-section.rea{
+  background: #ffffff;
+  padding: 100px 0;
+}
+
+.howjsay-costumer-taking-content > header > h3{
+  font-size: 20px;
+  margin-top: 3em;
+  font-weight: bold;
+  color: #9d1521;
+}
+
+.howjsay-costumer-taking-content.rea > header > h3{
+  margin-bottom: 0px;
+  font-size: 40px;
+  font-family: 'Poppins';
+  /* margin-top: 3em; */
+  font-weight: bold;
+  color: #7934DF;
+}
+
+.howjsay-costumer-taking-content > header > h1 {
+  font-size: 38px;
+  color: #021f41;
+}
+
+.howjsay-costumer-taking-content > header > hr {
+  background: #9D1521;
+  height: 3px;
+  transform: translateY(calc(-50% - 1px));
+  width: 110px;
+  float: left;
+}
+
+.howjsay-costumer-taking-content.rea > header > hr {
+  background: #B26AD6;
+  height: 3px;
+  transform: translateY(calc(-50% - 1px));
+  width: 110px;
+  float: left;
+}
+
+.howjsay-costumer-taking-content > p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e5d6b;
+  margin-top: 5em;
+}
+
+.howjsay-costumer-taking-content.rea > p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e5d6b;
+  margin-top: 3em;
+}
+
+.howjsay-costumer-taking-content > a{
+  margin-top: 2em;
+  background: #9d1521;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0.6em 1.5em;
+}
+
+/* Features Section */
+.howjsay-features-img-col {
+  background: #f4f4f4;
+  padding: 50px 50px 50px 0;
+  text-align: right;
+}
+
+.howjsay-features-content {
+  background: #9d1521;
+  padding: 50px 30px 50px 50px;
+}
+
+.howjsay-features-content-head > h1 {
+  font-size: 38px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.howjsay-features-content-head > hr {
+  background: #000000;
+  height: 3px;
+  -webkit-transform: translateY(calc(-50% - 1px));
+  transform: translateY(calc(-50% - 1px));
+  width: 110px;
+  float: left;
+}
+
+.howjsay-features-content-head > p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  float: left;
+}
+
+.howjsay-features-content-body h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+.howjsay-features-content-body p  {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+
+/* Get Your App */
+#howsjay-get-your-app-section {
+background-color: #ebebeb;
+background-image: url("../../../static/img/howjsay/get-your-app-bg.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center center;
+padding-top: 50px;
+}
+
+.howsjay-get-your-app-text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.howsjay-get-your-app-wrap > img {
+    width: 354px;
+}
+
+.howsjay-get-your-app-text > h1 {
+  font-size: 38px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #021f41;
+}
+
+.howsjay-get-your-app-text > span {
+  padding-left: 0;
+  list-style: none;
+  display: inline-flex;
+  font-size: 28px;
+}
+
+.howsjay-get-your-app-text > span > a {
+  color: #ffffff;
+  background: #9D1521;
+}
+
+.howsjay-get-your-app-text .app-link a > div > i{
+  font-size: 28px;
+}
+
+
+@media (max-width:780px){
+  /* Hero Section */
+  .howjsay-hero-text > h1 {
+    font-size: 40px;
+  }
+
+  .howjsay-hero-text > ul {
+    margin-top: 1em;
+  }
+
+  .howjsay-costumer-taking-content > header > h3 {
+    margin-top: 0em;
+  }
+
+  .howjsay-costumer-taking-content.rea > header > h3 {
+    margin-top: 0em;
+  }
+
+  /* Features */
+  .howjsay-features-img-col{
+    text-align: center;
+  }
+
+  .howjsay-features-content{
+    padding: 50px 10px 50px 10px;
+  }
+
+  /* Get App */
+  .howsjay-get-your-app-text > h1 {
+    font-size: 33px;
+  }
+}
+
+@media(max-width:600px){
+.howjsay-hero-text{
+  padding-top:20% ;
+}
+
+/* Costumers Talking */
+#howjsay-costumer-taking-section{
+  padding: 50px 0;
+}
+
+#howjsay-costumer-taking-section.rea{
+  padding: 50px 0;
+}
+
+/* Features */
+.howjsay-features-content-head > h1 {
+  font-size: 33px;
+}
+
+.howjsay-features-content-body > ul > li > div > h3 {
+  padding-top: 0;
+}
+
+
+/* Get App */
+.howsjay-get-your-app-text > a {
+  width: 100%;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+}
+
+.howjsay-features-img-col {
+  padding: 40px 20px 40px 20px;
+}
+
+.howsjay-get-your-app-wrap > img {
+    width: 164px;
+}
+}

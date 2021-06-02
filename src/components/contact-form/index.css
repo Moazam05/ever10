@@ -1,0 +1,22 @@
+.form-btn{
+  background: #021f41;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.checkboxGroup label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  margin-left: 10px;
+}
+
+.checkboxGroup legend {
+  display: inline-block;
+  font-family: "Myriad Pro Regular";
+}
+
+.checkboxGroup .invalid-feedback {
+  display: block;
+}
