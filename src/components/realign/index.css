@@ -9,6 +9,28 @@
   padding: 12% 0 17%;
 }
 
+.manan {
+  position: relative;
+}
+
+img.manan-img {
+  position: absolute;
+  left: 25%;
+  top: -3%;
+  width: 200px;
+}
+
+.faizan {
+  position: relative;
+}
+
+img.faizan-img {
+  z-index: 99;
+  position: absolute;
+  left: 15%;
+  top: -3%;
+}
+
 .circle-rea {
   width: 516px;
 }
@@ -17,21 +39,20 @@
   margin-top: 50px;
   text-align: center;
   font-size: 20px;
-  color: #4E5D6B;
+  color: #4e5d6b;
   font-family: 'Open Sans', sans-serif;
   line-height: 24px;
   font-weight: bold;
-
 }
 
 .apst-rea {
   font-size: 30px;
   text-align: center;
-  color: #7934DF;
+  color: #7934df;
   font-weight: bold;
   font-family: 'Poppins';
-margin-top: 5px;
-line-height: 32px;
+  margin-top: 5px;
+  line-height: 32px;
 }
 
 /* .splittable-hero-text.rea {
@@ -66,6 +87,7 @@ ul.rea {
   list-style-type: none;
   padding: 0px;
   margin-top: 32px;
+
   /* padding: 0;
   margin: 0; */
 }
@@ -175,7 +197,7 @@ a.btn.d-flex.app-link.rea {
 
 #splittable-how-it-works-section-realign {
   /* background: url('../../../static/img/realign/works.png'); */
-  background: url('../../../static/img/realign/ss.png');
+  background: url('../../../static/img/realign/works.png');
   padding: 0 0 100px 0;
   background-size: 100% 100%;
 }
@@ -516,21 +538,28 @@ span.video-react-control-text {
 */
 
 @media (min-width: 1281px) {
+  img.faizan-img {
+    display: none;
+  }
+
+  ul.rea {
+    margin-bottom: 18%;
+  }
   .mbl-dwn-app {
     display: none;
-}
+  }
 
   img.mobile-first-step {
     display: none;
-}
+  }
 
-img.mobile-second-step {
+  img.mobile-second-step {
     display: none;
-}
+  }
 
-img.mobile-third-step {
+  img.mobile-third-step {
     display: none;
-}
+  }
 
   .circle-rea {
     /* margin-left: 35px; */
@@ -538,7 +567,7 @@ img.mobile-third-step {
   }
 
   .splittable-how-it-works-content-rea > header > h1 {
-    margin-top: 354px;
+    margin-top: 254px;
   }
 
   #splittable-footer-realign-mobile {
@@ -552,20 +581,30 @@ img.mobile-third-step {
 */
 
 @media (min-width: 1200px) and (max-width: 1280px) {
+  img.faizan-img {
+    display: none;
+  }
+  ul.rea {
+    margin-bottom: 18%;
+  }
+  img.manan-img {
+    left: 15%;
+    top: -3%;
+  }
   .mbl-dwn-app {
     display: none;
-}
+  }
   img.mobile-first-step {
     display: none;
-}
+  }
 
-img.mobile-second-step {
+  img.mobile-second-step {
     display: none;
-}
+  }
 
-img.mobile-third-step {
+  img.mobile-third-step {
     display: none;
-}
+  }
   .circle-rea {
     width: 400px !important;
   }
@@ -580,20 +619,30 @@ img.mobile-third-step {
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
+  img.faizan-img {
+    display: none;
+  }
+  ul.rea {
+    margin-bottom: 18%;
+  }
+  img.manan-img {
+    left: 15%;
+    top: -3%;
+  }
   .mbl-dwn-app {
     display: none;
-}
+  }
   img.mobile-first-step {
     display: none;
-}
+  }
 
-img.mobile-second-step {
+  img.mobile-second-step {
     display: none;
-}
+  }
 
-img.mobile-third-step {
+  img.mobile-third-step {
     display: none;
-}
+  }
   .circle-rea {
     width: 316px;
   }
@@ -626,10 +675,9 @@ img.mobile-third-step {
     width: 107px;
   }
 
-  #splittable-footer-realign-mobile{
+  #splittable-footer-realign-mobile {
     display: none !important;
   }
-
 
   .splittable-hero-text.rea {
     margin-top: 60px !important;
@@ -637,20 +685,30 @@ img.mobile-third-step {
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
+  img.faizan-img {
+    display: none;
+  }
+  ul.rea {
+    margin-bottom: 18%;
+  }
+  img.manan-img {
+    left: 15%;
+    top: -3%;
+  }
   .mbl-dwn-app {
     display: none;
-}
+  }
   img.mobile-first-step {
     display: none;
-}
+  }
 
-img.mobile-second-step {
+  img.mobile-second-step {
     display: none;
-}
+  }
 
-img.mobile-third-step {
+  img.mobile-third-step {
     display: none;
-}
+  }
   .circle-rea {
     width: 316px;
   }
@@ -723,7 +781,6 @@ img.mobile-third-step {
     padding: 0px 0px 45px 0px;
   } */
 
-
   .appstore-rea {
     margin: 50px auto 0px;
     width: 350px;
@@ -750,22 +807,55 @@ img.mobile-third-step {
     margin-top: 0px;
 }
 } */
+@media (min-width: 991px) {
+  .mbl-dwn-app {
+    display: none !important;
+  }
+  .splittable-how-it-works-content-rea > header > h1 {
+    margin-top: 224px;
+  }
+  /* .img-fluid {
+  margin-top: -90px;
+  margin-bottom: 30px;
+;
+} */
+
+  /* ul.rea{
+    margin-bottom: 0px !important;
+  } */
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
+  img.faizan-img {
+    display: none;
+  }
+
+  img.img-fluid {
+    margin-bottom: 30px;
+  }
+  img.manan-img {
+    left: 14%;
+    top: -3%;
+  }
+
+  .splittable-how-it-works-content-rea > header > h1 {
+    margin-top: 254px;
+  }
+
   .mbl-dwn-app {
     display: none;
-}
+  }
   img.mobile-first-step {
     display: none;
-}
+  }
 
-img.mobile-second-step {
+  img.mobile-second-step {
     display: none;
-}
+  }
 
-img.mobile-third-step {
+  img.mobile-third-step {
     display: none;
-}
+  }
   .splittable-hero-text.rea {
     margin-top: 0px !important;
   }
@@ -807,8 +897,22 @@ img.mobile-third-step {
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
+/* @media (min-width: 767px) {
+
+} */
 
 @media (min-width: 767px) {
+  img.mobile-third-step {
+    display: none;
+  }
+
+  img.mobile-second-step {
+    display: none;
+  }
+
+  img.mobile-first-step {
+    display: none;
+  }
   .mobile-logo-rea {
     width: 93px;
   }
@@ -827,13 +931,12 @@ img.mobile-third-step {
     width: 742px;
   }
 
-
   #splittable-footer-realign {
     padding: 60px 0 100px 0;
     /* display: none !important; */
   }
 
-  #splittable-footer-realign-mobile{
+  #splittable-footer-realign-mobile {
     display: none !important;
   }
 
@@ -852,41 +955,52 @@ img.mobile-third-step {
   }
 }
 
-
-
 @media (min-width: 576px) and (max-width: 767px) {
+  img.manan-img {
+    display: none;
+  }
 
-  #splittable-header-mob-rea{
+  .splittable-how-it-works-content-rea > header > h1 {
+    margin-top: 200px;
+  }
+  img.manan-img {
+    left: 14%;
+    top: -2%;
+    width: 170px;
+  }
+
+  h3.howjasy-selfie {
+    text-align: center;
+  }
+
+  #splittable-header-mob-rea {
     background: rgba(255, 255, 255, 0.2);
   }
 
   .row.mt-5.justify-content-center {
     margin-top: 0px !important;
-}
+  }
 
-.col-12.mt-5.splittable-how-it-works-content-rea.text-center.mbr {
+  .col-12.mt-5.splittable-how-it-works-content-rea.text-center.mbr {
     margin-top: 0px !important;
-}
-
-
+  }
 
   img.first-step {
     display: none;
-}
+  }
 
-img.second-step {
+  img.second-step {
     display: none;
-}
+  }
 
-img.third-step {
+  img.third-step {
     display: none;
-}
+  }
 
   /* #splittable-how-it-works-section-realign {
     background: url('../../../static/img/realign/salman.png');
     background-size: 100%  100%;
   } */
-
 
   #splittable-hero-section-realign {
     background: url('../../../static//img/realign/background-mobile.png');
@@ -904,7 +1018,7 @@ img.third-step {
     bottom: 21px;
   } */
 
-/* 
+  /* 
   .col-6.splittable-header-mob-toggle.text-right.mt-auto.mb-auto {
     margin-bottom: 28px !important;
   } */
@@ -964,13 +1078,13 @@ img.third-step {
     display: flex;
     justify-content: center;
   }
-/* 
+  /* 
   #splittable-footer-realign-mobile {
     padding: 60px 0 200px 0 !important;
   } */
 
   #splittable-footer-realign {
-  display: none !important;
+    display: none !important;
   }
 
   .mobile-rea {
@@ -989,30 +1103,51 @@ img.third-step {
 @media (min-width: 481px) and (max-width: 576px) {
 
 
-  #splittable-header-mob-rea{
+  
+  img.faizan-img {
+    z-index: 99;
+    position: absolute;
+    left: 13%;
+    top: -3%;
+  }
+  img.manan-img {
+    display: none;
+  }
+  .splittable-how-it-works-content-rea > header > h1 {
+    margin-top: 175px;
+  }
+  img.manan-img {
+    left: 12%;
+    top: -2%;
+    width: 150px;
+  }
+
+  h3.howjasy-selfie {
+    text-align: center;
+  }
+  #splittable-header-mob-rea {
     background: rgba(255, 255, 255, 0.2);
   }
 
   .row.mt-5.justify-content-center {
     margin-top: 0px !important;
-}
+  }
 
-.col-12.mt-5.splittable-how-it-works-content-rea.text-center.mbr {
+  .col-12.mt-5.splittable-how-it-works-content-rea.text-center.mbr {
     margin-top: 0px !important;
-}
-
+  }
 
   img.first-step {
     display: none;
-}
+  }
 
-img.second-step {
+  img.second-step {
     display: none;
-}
+  }
 
-img.third-step {
+  img.third-step {
     display: none;
-}
+  }
   /* #splittable-how-it-works-section-realign {
     background: url('../../../static/img/realign/salman.png');
     background-size: 100%  100%;
@@ -1115,8 +1250,6 @@ img.third-step {
   /* .col-md-6.splittable-footer-terms-wrap.rea {
   padding-right: 130px;
 } */
-
-  
 }
 
 /* 
@@ -1131,39 +1264,67 @@ margin-top: 4px !important;
 
 @media (min-width: 320px) and (max-width: 481px) {
 
-  #splittable-footer-realign{
+
+  
+  img.faizan-img {
+    z-index: 99;
+    position: absolute;
+    left: 10%;
+    top: -2%;
+    height: 150px;
+  }
+
+  img.manan-img {
+    display: none;
+  }
+
+  img.manan-img {
+    display: none;
+  }
+  h3.howjasy-selfie {
+    text-align: center;
+  }
+
+  /* #splittable-how-it-works-section-realign { */
+  /* background: url('../../../static/img/realign/works.png'); */
+  /* background: url('../../../static/img/realign/ss.png');
+  /* background-size: 100% 100%; */
+  /* background: url('../../../static//img/realign/works.png') !important;
+  background-size: 100% 100%; */
+  /* padding: 0 0 100px 0; */
+  /* } */
+
+  #splittable-footer-realign {
     display: none !important;
   }
 
-  #splittable-header-mob-rea{
+  #splittable-header-mob-rea {
     background: rgba(255, 255, 255, 0.2);
   }
 
   .row.mt-5.justify-content-center {
     margin-top: 0px !important;
-}
+  }
 
-.col-12.mt-5.splittable-how-it-works-content-rea.text-center.mbr {
+  .col-12.mt-5.splittable-how-it-works-content-rea.text-center.mbr {
     margin-top: 0px !important;
-}
-
+  }
 
   img.first-step {
     display: none;
-}
+  }
 
-img.second-step {
+  img.second-step {
     display: none;
-}
+  }
 
-img.third-step {
+  img.third-step {
     display: none;
-}
-  /* #splittable-how-it-works-section-realign {
-    background: url('../../../static/img/realign/salman.png');
-    background-size: 100%  100%;
-  } */
-
+  }
+  #splittable-how-it-works-section-realign {
+    background: url('../../../static/img/realign/zxc.png');
+    background-size: 100% 100%;
+  }
 
   #splittable-hero-section-realign {
     background: url('../../../static//img/realign/background-mobile.png');
@@ -1172,8 +1333,9 @@ img.third-step {
     padding: 12% 0 63%;
   }
 
-  .splittable-how-it-works-content-rea > header > h1{
-    margin-top: 300px;
+  .splittable-how-it-works-content-rea > header > h1 {
+    margin-top: 100px;
+    font-size: 30px;
   }
 
   /* .col-6.splittable-header-mob-toggle.text-right.mt-auto.mb-auto {
@@ -1240,10 +1402,9 @@ img.third-step {
     justify-content: center;
   }
 
-  #splittable-footer-realign-mobile {
+  /* #splittable-footer-realign-mobile {
     padding: 60px 0px 100px 0px !important;
-    /* display: none !important; */
-  }
+  } */
 
   .howjsay-costumer-taking-content.rea > header > h3 {
     font-size: 30px;
@@ -1258,8 +1419,6 @@ img.third-step {
   .howjsay-costumer-taking-content.rea > header > hr {
     display: none;
   }
-
-
 
   .splittable-footer-terms-wrap.rea > ul > li > a {
     font-size: 12px;
@@ -1276,29 +1435,48 @@ img.third-step {
 
 @media (max-width: 320px) {
 
-  #splittable-header-mob-rea{
+  .splittable-how-it-works-content-rea > header > h1 {
+    margin-top: 200px;
+    font-size: 25px;
+  }
+
+  
+  img.faizan-img {
+    z-index: 99;
+    position: absolute;
+    left: 10%;
+    top: -2%;
+    height: 150px;
+  }
+
+  img.manan-img {
+    display: none;
+  }
+  h3.howjasy-selfie {
+    text-align: center;
+  }
+  #splittable-header-mob-rea {
     background: rgba(255, 255, 255, 0.2);
   }
   .row.mt-5.justify-content-center {
     margin-top: 0px !important;
-}
+  }
 
-.col-12.mt-5.splittable-how-it-works-content-rea.text-center.mbr {
+  .col-12.mt-5.splittable-how-it-works-content-rea.text-center.mbr {
     margin-top: 0px !important;
-}
-
+  }
 
   img.first-step {
     display: none;
-}
+  }
 
-img.second-step {
+  img.second-step {
     display: none;
-}
+  }
 
-img.third-step {
+  img.third-step {
     display: none;
-}
+  }
   /* #splittable-how-it-works-section-realign {
     background: url('../../../static/img/realign/salman.png');
     background-size: 100%  100%;
@@ -1323,8 +1501,6 @@ img.third-step {
     margin-top: 0px !important;
   }
 
-
-
   .splittable-hero-text.rea img {
     width: 150px;
   }
@@ -1341,7 +1517,7 @@ img.third-step {
   /* #splittable-footer-realign-mobile {
     padding: 0 0 50px 0;
   } */
-  
+
   .splittable-footer-terms-wrap.rea > ul > li > a {
     font-size: 12px;
   }

@@ -4,7 +4,16 @@ import border from '../../../../static/img/realign/border.png';
 import one from '../../../../static/img/realign/one.png';
 
 const HowItWorks = () => (
-  <section id='splittable-how-it-works-section-realign'>
+  <>
+  <div className="faizan">
+  <img className='faizan-img' src={require('../../../../static/img/realign/faizan.png')} alt='faizan first step' />
+
+
+  <div className="manan">
+
+ <img className='manan-img' src={require('../../../../static/img/realign/afnan.png')} alt='mobile first step' />
+
+   <section id='splittable-how-it-works-section-realign'>
     <div className='container'>
       <div className='row'>
         <div className='col-12 splittable-how-it-works-content-rea text-center'>
@@ -24,7 +33,7 @@ const HowItWorks = () => (
             className='img-fluid'
             src={require('../../../../static/img/realign/selfie.png')}
             alt='Selfi Icon'
-          />
+            />
         </div>
 
         <div className='col-lg-4 text-center splittable-how-to-work-process-arrow'>
@@ -44,7 +53,7 @@ const HowItWorks = () => (
             className='img-fluid'
             src={require('../../../../static/img/realign/Person.png')}
             alt='Selfi Icon'
-          />
+            />
         </div>
 
         <div className='col-lg-4 text-center splittable-how-to-work-process-arrow'>
@@ -62,17 +71,17 @@ const HowItWorks = () => (
             <img className="second-step"
               src={require('../../../../static/img/realign/two.png')}
               alt='second step'
-            />
+              />
               <img className="mobile-second-step"
               src={require('../../../../static/img/realign/mobile2.png')}
               alt='mobile second step'
-            />
+              />
             <p className='capture-rea'>Analyse your results</p>
             <div className='exercise-rea'>
               <img
                 src={require('../../../../static/img/realign/analyse.png')}
                 alt='Analyse'
-              />
+                />
             </div>
           </div>
         </div>
@@ -81,13 +90,13 @@ const HowItWorks = () => (
           <div className='col-12 mt-5 splittable-how-it-works-content-rea text-center'>
             <img
             className="third-step"
-              src={require('../../../../static/img/realign/three.png')}
-              alt='third step'
+            src={require('../../../../static/img/realign/three.png')}
+            alt='third step'
             />
               <img
             className="mobile-third-step"
-              src={require('../../../../static/img/realign/mobile3.png')}
-              alt='mobile third step'
+            src={require('../../../../static/img/realign/mobile3.png')}
+            alt='mobile third step'
             />
 
             <p className='capture-rea'>Trak your progress</p>
@@ -95,13 +104,17 @@ const HowItWorks = () => (
               <img
                 src={require('../../../../static/img/realign/progress.png')}
                 alt='Progress'
-              />
+                />
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  </div>
+  </div>
+  </>
+               
 );
 
 export default HowItWorks;
