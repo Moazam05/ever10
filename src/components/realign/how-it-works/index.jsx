@@ -30,7 +30,7 @@ const HowItWorks = () => (
       <div className='row mt-5 justify-content-center'>
         <div className='col-lg-2 splittable-how-to-work-process text-center p-0'>
           <img
-            className='img-fluid'
+            className='img-fluid kk'
             src={require('../../../../static/img/realign/selfie.png')}
             alt='Selfi Icon'
             />
@@ -49,8 +49,12 @@ const HowItWorks = () => (
         </div>
 
         <div className='col-lg-2 splittable-how-to-work-process text-center p-0'>
+          {/* <div className="finish">
+      <img src={require('../../../../static/img/realign/Image3.png')} alt="" />
+      
+          </div> */}
           <img
-            className='img-fluid'
+            className='img-fluid jj'
             src={require('../../../../static/img/realign/Person.png')}
             alt='Selfi Icon'
             />

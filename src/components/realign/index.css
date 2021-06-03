@@ -8,6 +8,17 @@
   /* padding: 17% 0 24%; */
   padding: 12% 0 17%;
 }
+.howjsay-costumer-taking-content.rea > header > h3{
+  text-transform: uppercase;
+}
+/* .finish {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+  border:1px solid orange;
+  display: inline-block;
+} */
 
 .manan {
   position: relative;
@@ -81,6 +92,7 @@ img.faizan-img {
   font-weight: bold;
   color: #7934df;
   font-family: 'Poppins';
+  text-transform: uppercase;
 }
 
 ul.rea {
@@ -211,7 +223,7 @@ a.btn.d-flex.app-link.rea {
 
 .splittable-how-it-works-content-rea > header > h1 {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 900;
   text-transform: uppercase;
   color: #7934df;
   margin-top: 254px;
@@ -249,7 +261,7 @@ ul.selfie-rea > li::marker {
 h3.howjasy-selfie {
   font-size: 30px;
   color: #532cd3;
-  font-weight: bold;
+  font-weight: 900;
   font-family: 'Poppins';
   text-align: left;
   margin-left: 25px;
@@ -1378,7 +1390,7 @@ margin-top: 4px !important;
   }
   .exercise-rea {
     margin-top: -10px;
-    width: 300px;
+    width: 430px;
   }
 
   p.capture-rea {
