@@ -49,15 +49,14 @@ const HowItWorks = () => (
         </div>
 
         <div className='col-lg-2 splittable-how-to-work-process text-center p-0'>
-          {/* <div className="finish">
-      <img src={require('../../../../static/img/realign/Image3.png')} alt="" />
-      
-          </div> */}
+  <div className="jj">
           <img
+            
             className='img-fluid jj'
             src={require('../../../../static/img/realign/Person.png')}
             alt='Selfi Icon'
             />
+            </div>
         </div>
 
         <div className='col-lg-4 text-center splittable-how-to-work-process-arrow'>

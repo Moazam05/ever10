@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
+.jj {
+  width: 150px;
+  margin: 0px auto;
+}
+
 /* Hero-section */
 #splittable-hero-section-realign {
   background: url('../../../static/img//realign/background-ss.png');
