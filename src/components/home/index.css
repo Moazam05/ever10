@@ -1,7 +1,8 @@
 /* Body */
 
 #ever-10-body-content{
-  padding: 90px 0 20px 0;
+  /* padding: 90px 0 20px 0; */
+  padding: 90px 0 0 0;
   background: #ffffff;
 }
 
@@ -52,6 +53,20 @@
   color: #9d1521;
   background: #ffffff;
   border: 1px solid #9d1521;
+}
+
+.ever-10-howjsay-btn.get{
+  background: #7934df;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.ever-10-howjsay-btn.get:hover{
+  color: #7934df;
+  background: #ffffff;
+  border: 1px solid #7934df;
 }
 
 
