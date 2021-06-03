@@ -56,8 +56,7 @@
 .howjsay-costumer-taking-content.rea > header > h3{
   margin-bottom: 0px;
   font-size: 40px;
-  font-family: 'Poppins';
-  /* margin-top: 3em; */
+  font-family: 'Poppins', sans-serif;  /* margin-top: 3em; */
   font-weight: bold;
   color: #7934DF;
 }

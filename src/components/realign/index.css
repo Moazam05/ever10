@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
 /* Hero-section */
 #splittable-hero-section-realign {
   background: url('../../../static/img//realign/background-ss.png');
@@ -8,7 +10,7 @@
   /* padding: 17% 0 24%; */
   padding: 12% 0 17%;
 }
-.howjsay-costumer-taking-content.rea > header > h3{
+.howjsay-costumer-taking-content.rea > header > h3 {
   text-transform: uppercase;
 }
 /* .finish {
@@ -61,7 +63,7 @@ img.faizan-img {
   text-align: center;
   color: #7934df;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   margin-top: 5px;
   line-height: 32px;
 }
@@ -91,7 +93,7 @@ img.faizan-img {
   font-size: 40px;
   font-weight: bold;
   color: #7934df;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
 
@@ -136,7 +138,7 @@ img.rea {
   font-weight: bold;
   color: #582dd5;
   text-transform: inherit;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 
 .splittable-hero-text.rea > p {
@@ -227,7 +229,7 @@ a.btn.d-flex.app-link.rea {
   text-transform: uppercase;
   color: #7934df;
   margin-top: 254px;
-  font-family: 'Poppins';
+  font-family: 'font-family: ' Poppins ', sans-serif;';
 }
 
 .splittable-how-it-works-content > header > hr {
@@ -241,7 +243,7 @@ p.capture-rea {
   font-size: 30px;
   color: #4e5d6b;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
 
@@ -262,7 +264,7 @@ h3.howjasy-selfie {
   font-size: 30px;
   color: #532cd3;
   font-weight: 900;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   text-align: left;
   margin-left: 25px;
 }
@@ -1113,9 +1115,6 @@ span.video-react-control-text {
 } */
 
 @media (min-width: 481px) and (max-width: 576px) {
-
-
-  
   img.faizan-img {
     z-index: 99;
     position: absolute;
@@ -1275,9 +1274,6 @@ margin-top: 4px !important;
 } */
 
 @media (min-width: 320px) and (max-width: 481px) {
-
-
-  
   img.faizan-img {
     z-index: 99;
     position: absolute;
@@ -1390,7 +1386,7 @@ margin-top: 4px !important;
   }
   .exercise-rea {
     margin-top: -10px;
-    width: 380px;
+    width: 360px;
   }
 
   p.capture-rea {
@@ -1446,13 +1442,11 @@ margin-top: 4px !important;
 }
 
 @media (max-width: 320px) {
-
   .splittable-how-it-works-content-rea > header > h1 {
     margin-top: 200px;
     font-size: 25px;
   }
 
-  
   img.faizan-img {
     z-index: 99;
     position: absolute;
