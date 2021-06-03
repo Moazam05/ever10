@@ -50,9 +50,12 @@ const Home = () => (
       <div className='container'>
         <div className='row'>
           <div className='col-lg-6'>
-            <div className='ever-10-howjsay-inner-wrapper'>
-              <h3>Pronunciationz</h3>
-              <h2>ReAlign <span>Apps</span></h2>
+            <div className='ever-10-howjsay-inner-wrapper get'>
+              <h3>Pronunciation</h3>
+              <div >
+
+              <img className="mb-1 mt-2" src={require('../../../static/img/home/branding.png')} alt="" width="125"/>
+              </div>
               <p>Get lot of features with this landing page and do lot of good things.</p>
               <Link className='btn ever-10-howjsay-btn get' to='/realign'>
                Get Started
@@ -60,11 +63,13 @@ const Home = () => (
             </div>
           </div>
           <div className='col-lg-6'>
+            <div className="vector-smart">
             <img
-              className='img-fluid'
-              src={require('../../../static/img/home/splittable-home.png')}
-              alt='Splittable'
-            />
+              className='vec-sm'
+              src={require('../../../static/img/realign/Vector Smart Object.png')}
+              alt='Vector Smart'
+              />
+              </div>
           </div>
         </div>
       </div>

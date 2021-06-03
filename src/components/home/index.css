@@ -22,11 +22,40 @@
   padding: 50px 0 0 0;
 }
 
+.ever-10-howjsay-inner-wrapper.mt-3{
+  background: url("../../../static/img/home/background-realign.png");
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
 .ever-10-howjsay-inner-wrapper > h3{
   font-size: 20px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #9d1521;
+}
+.ever-10-howjsay-inner-wrapper.get{
+  text-align: left;
+}
+
+/* .ever-10-howjsay-inner-wrapper.get > h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+}
+.ever-10-howjsay-inner-wrapper.get > h2 > span {
+  font-weight: 100;
+  color: #000;
+} */
+
+.ever-10-howjsay-inner-wrapper.get > h3{
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #582DD5;
+  font-weight: bold;
 }
 
 .ever-10-howjsay-inner-wrapper > h2{
@@ -113,4 +142,41 @@
 .navbar > a  {
   width: 228px;
   height: 114px;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .ever-10-howjsay-inner-wrapper.get {
+    text-align: center;
+}
+  
+}
+
+
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .ever-10-howjsay-inner-wrapper.get {
+    text-align: center;
+}
+  
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .ever-10-howjsay-inner-wrapper.get {
+    text-align: center;
+}
+
+/* img.vec-sm {
+  width: 305px;
+} */
+  
 }
